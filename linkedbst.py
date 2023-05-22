@@ -439,9 +439,6 @@ class LinkedBST(AbstractCollection):
                 if temporary[middle:] != []:
                     final.append(temporary[middle + 1:])
 
-
-
-
-
-a = LinkedBST()
-print(a.demo_bst('words.txt'))
+if __name__ == '__main__':
+    a = LinkedBST()
+    print(a.demo_bst('words.txt'))
